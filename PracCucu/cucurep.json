@@ -1,0 +1,217 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-07T09:48:15.307Z",
+        "line": 12,
+        "name": "To test multi user input",
+        "description": "",
+        "id": "to-test-multiple-login;to-test-multi-user-input;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8743333200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on home page",
+            "match": {
+              "location": "MultiLogTest.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 245555100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"tomsmith\" and \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 27
+                }
+              ],
+              "location": "MultiLogTest.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login successful",
+            "match": {
+              "location": "MultiLogTest.login_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Functionality"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-07T09:48:24.326Z",
+        "line": 13,
+        "name": "To test multi user input",
+        "description": "",
+        "id": "to-test-multiple-login;to-test-multi-user-input;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7602656600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on home page",
+            "match": {
+              "location": "MultiLogTest.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221315900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"kate\" and \"test02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kate\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"test02\"",
+                  "offset": 23
+                }
+              ],
+              "location": "MultiLogTest.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login successful",
+            "match": {
+              "location": "MultiLogTest.login_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Functionality"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-07T09:48:32.150Z",
+        "line": 14,
+        "name": "To test multi user input",
+        "description": "",
+        "id": "to-test-multiple-login;to-test-multi-user-input;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9867302000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on home page",
+            "match": {
+              "location": "MultiLogTest.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291185700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"ansh\" and \"test256\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ansh\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"test256\"",
+                  "offset": 23
+                }
+              ],
+              "location": "MultiLogTest.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login successful",
+            "match": {
+              "location": "MultiLogTest.login_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Functionality"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To test multiple login",
+    "description": "",
+    "id": "to-test-multiple-login",
+    "keyword": "Feature",
+    "uri": "file:Features/multilog.feature",
+    "tags": [
+      {
+        "name": "@Functionality",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
